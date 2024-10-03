@@ -1,0 +1,8 @@
+.translate {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transform: translate(50%, 50%);
+    translate: translateX(80%);
+    translate: translateY(50%);
+}
