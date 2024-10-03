@@ -2,7 +2,47 @@
     height: 200px;
     width: 200px;
     background-color: black;
-    transform: translate(50%, 50%);
-    translate: translateX(80%);
-    translate: translateY(50%);
+    transform: translate(50%, 20%);
+    /* translate: translateX(80%);
+    translate: translateY(50%); */
 }
+
+.scale {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    transform: scale(0.2);
+} 
+
+.skew {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    transform: skew(89deg);
+}
+
+.rotate {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transform: rotate(50deg);
+}
+
+img {
+    border-radius: 50%;
+    transform: translate(200%, 50%);
+}
+
+.anyhow-e {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: translate(450%, 120%) rotate(47deg) scale(0.7);
+}
+
+.anyhow {
+    background-color: red;
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+
